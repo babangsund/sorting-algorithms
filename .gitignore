@@ -1,0 +1,11 @@
+# vim
+*.swp
+*.swo
+*~
+
+# misc
+.DS_Store
+.rgignore 
+
+# python
+*__pycache__/
