@@ -1,8 +1,10 @@
 (* Recursive *)
-let rec isort = function
-  | [] -> [elem]
-  | h::t -> insert h (isort t)
-and insert elem = function
-  | [] -> [elem]
-  | h::t -> if elem <= h then elem :: h :: t
-            else h :: insert elem t
+
+let rec insertion_sort = function
+  | [] -> []
+  | h::t -> insert h (insertion_sort t)
+and insert x = function
+  | [] -> [x]
+  | h::t -> if x <= h then x :: h :: t
+            else h :: insert x t
+;;
