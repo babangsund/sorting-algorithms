@@ -1,8 +1,8 @@
 # Common sorting algorithms
 
 - `Insertion sort`
+- `Merge sort`
 
 ### Todo:
-- `Merge sort`
 - `Bubble sort`
 - `Selection sort`
